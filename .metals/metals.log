@@ -1,0 +1,444 @@
+[0m2021.10.25 14:20:27 INFO  Started: Metals version 0.10.7 in workspace 'C:\Projects\project_01' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.25 14:20:30 INFO  time: initialize in 2.59s[0m
+[0m2021.10.25 14:20:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.25 14:20:31 WARN  no build target for: C:\Projects\project_01\src\main\scala\Main.scala[0m
+Oct 25, 2021 2:20:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 25, 2021 2:20:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+[0m2021.10.25 14:20:35 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\vVvGh\AppData\Local\Temp\metals13846199130153945432\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.25 14:20:38 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+[0m2021.10.25 14:20:38 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/C:/Users/vVvGh/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+[0m2021.10.25 14:20:38 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+[0m2021.10.25 14:20:38 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+[0m2021.10.25 14:20:38 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17)[0m
+[0m2021.10.25 14:20:40 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.25 14:20:43 INFO  time: code lens generation in 8.51s[0m
+[0m2021.10.25 14:20:43 INFO  time: code lens generation in 10s[0m
+[0m2021.10.25 14:20:43 INFO  time: code lens generation in 10s[0m
+[0m2021.10.25 14:20:43 INFO  time: code lens generation in 10s[0m
+[0m2021.10.25 14:20:44 INFO  [info] loading settings for project project_01-build-build from metals.sbt ...[0m
+[0m2021.10.25 14:20:44 INFO  [info] loading project definition from C:\Projects\project_01\project\project[0m
+[0m2021.10.25 14:20:48 INFO  [info] loading settings for project project_01-build from metals.sbt ...[0m
+[0m2021.10.25 14:20:48 INFO  [info] loading project definition from C:\Projects\project_01\project[0m
+[0m2021.10.25 14:20:53 INFO  [success] Generated .bloop\project_01-build.json[0m
+[0m2021.10.25 14:20:53 INFO  [success] Total time: 4 s, completed Oct 25, 2021, 2:20:53 PM[0m
+[0m2021.10.25 14:20:56 INFO  [info] loading settings for project project_01 from build.sbt ...[0m
+[0m2021.10.25 14:20:56 INFO  [info] set current project to hello-world (in build file:/C:/Projects/project_01/)[0m
+[0m2021.10.25 14:20:57 INFO  [success] Generated .bloop\project_01-test.json[0m
+[0m2021.10.25 14:20:57 INFO  [success] Generated .bloop\project_01.json[0m
+[0m2021.10.25 14:20:57 INFO  [success] Total time: 1 s, completed Oct 25, 2021, 2:20:57 PM[0m
+[0m2021.10.25 14:20:57 INFO  time: ran 'sbt bloopInstall' in 21s[0m
+[0m2021.10.25 14:20:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42054'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Projects\project_01\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Projects\project_01\.bloop\project_01-test.json'
+[0m[32m[D][0m Loading project from 'c:\Projects\project_01\.bloop\project_01.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\vVvGh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\vVvGh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\vVvGh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\vVvGh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\vVvGh\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'project_01'
+[0m[32m[D][0m Missing analysis file for project 'project_01-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42054...
+The server is listening for incoming connections at tcp://127.0.0.1:42054...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 14:21:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.25 14:21:02 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37777'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37777...
+The server is listening for incoming connections at tcp://127.0.0.1:37777...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 14:21:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.25 14:21:02 INFO  time: Connected to build server in 5.44s[0m
+[0m2021.10.25 14:21:02 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.25 14:21:02 INFO  time: Imported build in 0.13s[0m
+[0m2021.10.25 14:21:08 INFO  time: indexed workspace in 5.35s[0m
+[0m2021.10.25 14:21:09 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:21:10 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.25 14:21:14 INFO  time: compiled project_01 in 5.46s[0m
+[0m2021.10.25 14:21:19 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:21:20 INFO  time: compiled project_01 in 1.39s[0m
+Oct 25, 2021 2:21:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 25, 2021 2:21:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 25, 2021 2:21:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: Main
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: Main
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: Main
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:328)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:560)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Oct 25, 2021 2:21:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 25, 2021 2:21:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: Main
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: Main
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: Main
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:328)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:560)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Oct 25, 2021 2:22:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: Main
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: Main
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: Main
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:328)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:560)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.10.25 14:22:45 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:22:46 INFO  time: compiled project_01 in 1.28s[0m
+[0m2021.10.25 14:22:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 14:22:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 14:22:49 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.25 14:22:49 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49243 .[0m
+[0m2021.10.25 14:22:49 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 14:22:49 ERROR Exception in thread "main" java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/mockbusters[0m
+[0m2021.10.25 14:22:49 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:706)[0m
+[0m2021.10.25 14:22:49 ERROR 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)[0m
+[0m2021.10.25 14:22:49 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:37)[0m
+[0m2021.10.25 14:22:49 ERROR 	at Main$delayedInit$body.apply(Main.scala:30)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.10.25 14:22:49 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.10.25 14:22:49 ERROR 	at Main$.main(Main.scala:30)[0m
+[0m2021.10.25 14:22:49 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.10.25 14:22:49 INFO  Closing debug server tcp://0.0.0.0:49238[0m
+Oct 25, 2021 2:22:49 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: An established connection was aborted by the software in your host machine
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: An established connection was aborted by the software in your host machine
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:96)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:61)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+[0m2021.10.25 14:22:50 INFO  Canceling debug proxy for [Main][0m
+Oct 25, 2021 2:22:50 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$3(DebugProxy.scala:128)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$3$adapted(DebugProxy.scala:125)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:125)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:99)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:366)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:411)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 26 more
+
+[0m2021.10.25 14:23:39 INFO  time: code lens generation in 2.25s[0m
+[0m2021.10.25 14:23:45 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\vVvGh\AppData\Local\Temp\metals13974578521236587022\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.25 14:23:46 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+[0m2021.10.25 14:23:46 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/C:/Users/vVvGh/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+[0m2021.10.25 14:23:46 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+[0m2021.10.25 14:23:46 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+[0m2021.10.25 14:23:46 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17)[0m
+[0m2021.10.25 14:23:46 INFO  [info] loading settings for project project_01-build-build from metals.sbt ...[0m
+[0m2021.10.25 14:23:48 INFO  [info] loading project definition from C:\Projects\project_01\project\project[0m
+[0m2021.10.25 14:23:48 INFO  [info] loading settings for project project_01-build from metals.sbt ...[0m
+[0m2021.10.25 14:23:49 INFO  [info] loading project definition from C:\Projects\project_01\project[0m
+[0m2021.10.25 14:23:52 INFO  [success] Generated .bloop\project_01-build.json[0m
+[0m2021.10.25 14:23:52 INFO  [success] Total time: 3 s, completed Oct 25, 2021, 2:23:52 PM[0m
+[0m2021.10.25 14:23:55 INFO  [info] loading settings for project project_01 from build.sbt ...[0m
+[0m2021.10.25 14:23:55 INFO  [info] set current project to hello-world (in build file:/C:/Projects/project_01/)[0m
+[0m2021.10.25 14:23:55 INFO  [success] Generated .bloop\project_01-test.json[0m
+[0m2021.10.25 14:23:55 INFO  [success] Generated .bloop\project_01.json[0m
+[0m2021.10.25 14:23:55 INFO  [success] Total time: 1 s, completed Oct 25, 2021, 2:23:56 PM[0m
+[0m2021.10.25 14:23:56 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+[0m2021.10.25 14:23:56 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.25 14:23:56 INFO  Shut down connection with build server.[0m
+[0m2021.10.25 14:23:56 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.25 14:23:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13586'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Projects\project_01\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Projects\project_01\.bloop\project_01-test.json'
+[0m[32m[D][0m Loading project from 'c:\Projects\project_01\.bloop\project_01.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'project_01-test', 'project_01'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13586...
+The server is listening for incoming connections at tcp://127.0.0.1:13586...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 14:23:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.25 14:23:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23398'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23398...
+The server is listening for incoming connections at tcp://127.0.0.1:23398...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 14:23:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.25 14:23:56 INFO  time: Connected to build server in 0.97s[0m
+[0m2021.10.25 14:23:56 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.25 14:23:59 INFO  time: indexed workspace in 1.82s[0m
+[0m2021.10.25 14:24:01 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.25 14:24:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 14:24:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 14:24:04 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.25 14:24:04 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50305 .[0m
+[0m2021.10.25 14:24:04 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.10.25 14:24:04 INFO  Canceling debug proxy for [Main][0m
+[0m2021.10.25 14:24:04 INFO  Closing debug server tcp://0.0.0.0:50302[0m
+[0m2021.10.25 14:25:15 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:25:15 INFO  time: compiled project_01 in 0.29s[0m
+Oct 25, 2021 2:25:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.WorkspaceErrorsException$.<clinit>(DebugProvider.scala)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$2(DebugProvider.scala:332)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.10.25 14:25:53 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:25:53 INFO  time: compiled project_01 in 0.21s[0m
+[0m2021.10.25 14:26:09 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:26:09 INFO  time: compiled project_01 in 0.16s[0m
+[0m2021.10.25 14:26:30 INFO  compiling project_01 (1 scala source)[0m
+[0m2021.10.25 14:26:30 INFO  time: compiled project_01 in 0.86s[0m
+[0m2021.10.25 14:26:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.10.25 14:26:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vVvGh\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.10.25 14:26:34 INFO  Starting debug proxy for [Main][0m
+[0m2021.10.25 14:26:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50460 .[0m
+[0m2021.10.25 14:26:34 INFO  Attaching to debuggee VM succeeded.[0m
+Oct 25, 2021 2:39:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 167
+[0m2021.10.25 16:14:46 INFO  shutting down Metals[0m
+[0m2021.10.25 16:14:46 INFO  Canceling debug proxy for [Main][0m
+[0m2021.10.25 16:14:46 INFO  Closing debug server tcp://0.0.0.0:50457[0m
+[0m2021.10.25 16:14:46 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.25 16:14:46 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
