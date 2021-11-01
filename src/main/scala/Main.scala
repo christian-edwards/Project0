@@ -55,6 +55,16 @@ object Main extends App{
         println("Rental record added!")
     }
 
+    def printCommands(): Unit ={
+        println("Command List")
+        println("1: See a list of all movies.")
+        println("2: Retrieve movie info by inputting it's ID.")
+        println("3: See a list of all active rentals.")
+        println("4: Turn in a rental.")
+        println("5: Create a rental.")
+        println("99: To exit from menu.")
+    }
+
     def endRental(rentalID:Int): Unit ={//marks movie as no longer rented and deleted rental record
         try{
         var statement = connection.createStatement()
@@ -69,7 +79,7 @@ object Main extends App{
     }
 
     println("Welcome to the Mockbusters Movie Rental Database.")
-
+    printCommands()
     //var i = 0
     var quit = false
     while(quit == false){//until quit is true loop through user menu
@@ -97,13 +107,7 @@ object Main extends App{
                     } else {
                         println("Sorry this movie is currently unavailable.")
                     }
-                case 66 => println("Command List")
-                           println("1: See a list of all movies.")
-                           println("2: Retrieve movie info by inputting it's ID.")
-                           println("3: See a list of all active rentals.")
-                           println("4: Turn in a rental.")
-                           println("5: Create a rental.")
-                           println("99: To exit from menu.")
+                case 66 => printCommands()
                 case 99 => quit = true
                 case default => println("Incorrect number. For help enter 66.")
             }
